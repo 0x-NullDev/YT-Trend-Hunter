@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+*.whl
+venv/
+.venv/
+env/
+.env
+*.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node
+node_modules/
+.next/
+out/
+dist/
+.npm/
+.eslintcache
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+coverage/
+*.coverage.*
+.tox/
+
+# Docker
+docker-data/
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Uploads
+uploads/
+media/
+staticfiles/
+
+# Celery
+celerybeat-schedule
+
+# Elasticsearch
+elasticsearch-data/
+
+# Reports
+reports/generated/
+*.pdf
+*.csv
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Project specific
+backend/alembic/versions/*.pyc

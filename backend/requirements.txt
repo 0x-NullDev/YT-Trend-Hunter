@@ -1,0 +1,96 @@
+# =============================================================================
+# YT Trend Hunter - Python Dependencies
+# =============================================================================
+
+# Web Framework
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+pydantic==2.7.1
+pydantic-settings==2.3.0
+python-multipart==0.0.9
+
+# Database
+sqlalchemy[asyncio]==2.0.30
+asyncpg==0.29.0
+alembic==1.13.1
+psycopg2-binary==2.9.9
+
+# Redis & Caching
+redis==5.0.4
+aiocache==0.12.2
+
+# Task Queue
+celery[redis]==5.4.0
+flower==2.0.1
+
+# Search
+elasticsearch==8.13.2
+elasticsearch-dsl==8.13.0
+
+# HTTP Clients
+httpx==0.27.0
+aiohttp==3.9.5
+requests==2.32.3
+
+# YouTube API
+google-api-python-client==2.130.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.0
+
+# Google Trends
+pytrends==4.9.2
+
+# Reddit API
+praw==7.7.1
+
+# News API
+newsapi-python==0.2.7
+
+# RSS Feeds
+feedparser==6.0.11
+
+# AI Providers
+openai==1.30.1
+anthropic==0.28.1
+ollama==0.2.1
+
+# Data Processing
+pandas==2.2.2
+numpy==1.26.4
+scipy==1.13.1
+scikit-learn==1.5.0
+nltk==3.8.1
+textblob==0.18.0
+transformers==4.41.1
+torch==2.3.0
+
+# Reporting
+jinja2==3.1.4
+weasyprint==62.1
+markdown==3.6.0
+reportlab==4.1.0
+
+# Authentication
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.9
+
+# Utilities
+python-dotenv==1.0.1
+pyyaml==6.0.1
+orjson==3.10.3
+tenacity==8.3.0
+loguru==0.7.2
+rich==13.7.1
+click==8.1.7
+typer==0.12.3
+schedule==1.2.1
+apscheduler==3.10.4
+
+# Testing
+pytest==8.2.1
+pytest-asyncio==0.23.7
+pytest-cov==5.0.0
+httpx==0.27.0
+factory-boy==3.3.0
+faker==25.1.0
